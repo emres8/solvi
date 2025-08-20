@@ -3,182 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Solvi - Coffee Menu</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Café Solvi - Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Café Solvi</h1>
-            <p>Artisanal Coffee & Crafted Moments</p>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="menu-section">
-            <h2>Hot Coffee</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Espresso</h3>
-                        <span class="price">$3.50</span>
-                    </div>
-                    <p>Single shot of our signature blend</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Americano</h3>
-                        <span class="price">$4.00</span>
-                    </div>
-                    <p>Espresso with hot water</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Cappuccino</h3>
-                        <span class="price">$4.50</span>
-                    </div>
-                    <p>Espresso with steamed milk and foam</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Latte</h3>
-                        <span class="price">$4.75</span>
-                    </div>
-                    <p>Espresso with steamed milk</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Mocha</h3>
-                        <span class="price">$5.25</span>
-                    </div>
-                    <p>Espresso with chocolate and steamed milk</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Flat White</h3>
-                        <span class="price">$4.75</span>
-                    </div>
-                    <p>Espresso with velvety microfoam</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="menu-section">
-            <h2>Cold Drinks</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Iced Americano</h3>
-                        <span class="price">$4.50</span>
-                    </div>
-                    <p>Espresso over ice with cold water</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Iced Latte</h3>
-                        <span class="price">$5.00</span>
-                    </div>
-                    <p>Espresso with cold milk over ice</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Cold Brew</h3>
-                        <span class="price">$5.50</span>
-                    </div>
-                    <p>18-hour steeped coffee concentrate</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Nitro Cold Brew</h3>
-                        <span class="price">$6.50</span>
-                    </div>
-                    <p>Cold brew infused with nitrogen</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="menu-section">
-            <h2>Specialty Drinks</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Caramel Macchiato</h3>
-                        <span class="price">$5.75</span>
-                    </div>
-                    <p>Espresso with vanilla, caramel, and steamed milk</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Pumpkin Spice Latte</h3>
-                        <span class="price">$6.00</span>
-                    </div>
-                    <p>Seasonal favorite with pumpkin and spices</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Honey Lavender Latte</h3>
-                        <span class="price">$6.25</span>
-                    </div>
-                    <p>Espresso with honey and lavender syrup</p>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Maple Pecan Latte</h3>
-                        <span class="price">$6.00</span>
-                    </div>
-                    <p>Espresso with maple and pecan flavors</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="menu-section">
-            <h2>Add-ons</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Extra Shot</h3>
-                        <span class="price">$1.00</span>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Almond Milk</h3>
-                        <span class="price">$0.75</span>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Oat Milk</h3>
-                        <span class="price">$0.75</span>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Syrup (Vanilla, Caramel, Hazelnut)</h3>
-                        <span class="price">$0.50</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Café Solvi. All rights reserved.</p>
-    </footer>
+    <iframe src="menu.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0&view=FitH"></iframe>
 </body>
 </html>
